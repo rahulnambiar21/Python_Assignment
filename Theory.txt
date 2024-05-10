@@ -1,0 +1,22 @@
+* What is a Software ?
+- Software is a set of instructions, data or programs used 
+to operate computers and execute specific any tasks.
+
+* What are the types of Applications ?
+- The following are the types of applications:
+	- Database
+	- Custom
+	- Web based
+	- Business Application
+
+* What is Programming ?
+- Programming is a technical process for telling a computer
+which tasks to perform in order to solve problems.
+
+* What is Python ?
+- Python is an interpreted, object-oriented, computer programming language
+often used to build websites and software, automate tasks, and analyze data.
+
+* What is the purpose of continue statement in Python?
+-The continue statement is used to end the current iteration in a for loop
+or a while loop and continues to the next iteration.
