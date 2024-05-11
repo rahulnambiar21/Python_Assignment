@@ -20,3 +20,21 @@ often used to build websites and software, automate tasks, and analyze data.
 * What is the purpose of continue statement in Python?
 -The continue statement is used to end the current iteration in a for loop
 or a while loop and continues to the next iteration.
+
+*What is List? How will you reverse it?
+- A List is a group of different type of data. It is surrounded with square brackets i.e ([]).
+- To reverse a List you can use the reverse function from the in-built library specifically
+designed for List.
+
+* How will you remove last object from a list?
+suppose list1 is [2,33,222,14, and 25], what is list1[-1]?
+- To remove last object from a list use pop() function from the List library.
+For example: To remove last object from list1=[2,33,222,14,25]
+we use : list1.pop()
+
+* Differentiate between append() and extend() methods.
+- Both append() and extend() methods are functions of list.
+- Append is used to add a single data to the end of the given list.
+- Extend is used to add multiple data or a whole list to he old given list.
+
+
