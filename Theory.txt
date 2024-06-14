@@ -37,4 +37,18 @@ we use : list1.pop()
 - Append is used to add a single data to the end of the given list.
 - Extend is used to add multiple data or a whole list to he old given list.
 
+* What are negative indexes and why are they used?  
+- Negative indexes in Python are a way to access elements from the end of a sequence (like a string, list, or tuple) rather than from the beginning.
+- Negative indexes are useful for accessing elements relative to the end of a sequence, especially when the length of the sequence is not known or varies.
 
+* How memory is managed in Python? 
+- Memory management in Python is handled by the Python memory manager, which is responsible for allocating and deallocating memory for objects dynamically during program execution.
+
+* What is tuple? Difference between list and tuple.
+- A tuple in Python is an ordered collection of elements whose contents cannot be changed, added, or removed.
+- Lists can change their elements, append new elements, remove elements, or modify them in place.
+- Tuples their elements cannot be changed. You cannot add, remove, or modify elements in a tuple after it has been created.
+- Lists are enclosed in square brackets [ ], and elements are separated by commas.
+- Tuples are enclosed in parentheses ( ), and elements are also separated by commas.
+
+* 
