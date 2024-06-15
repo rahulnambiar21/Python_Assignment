@@ -51,4 +51,6 @@ we use : list1.pop()
 - Lists are enclosed in square brackets [ ], and elements are separated by commas.
 - Tuples are enclosed in parentheses ( ), and elements are also separated by commas.
 
-* 
+* How Do You Check The Presence Of A Key In A Dictionary?
+- The presence of a Key in a Dictionary can be checked by using 'in' Keyword or using 'get()' method
+- or by using handling KeyError.
