@@ -54,3 +54,88 @@ we use : list1.pop()
 * How Do You Check The Presence Of A Key In A Dictionary?
 - The presence of a Key in a Dictionary can be checked by using 'in' Keyword or using 'get()' method
 - or by using handling KeyError.
+
+* When is the finally block executed?
+- In Python, the finally block is used in conjunction with try and except blocks to define cleanup actions that must be executed regardless of whether an exception occurs or not.
+- finally:
+    # Optional block
+    # This block is always executed whether an exception occurred or not
+    # It is used for cleanup actions like closing files, releasing resources, etc.
+
+* What are oops concepts? Is multiple inheritance supported in java?
+- Object-Oriented Programming (OOP) concepts are fundamental principles in programming languages that support object-oriented design and development. 
+- These concepts help in organizing and structuring code to enhance modularity, reusability, and maintainability. Here are the key OOP concepts:
+-Classes and Objects:
+-Class: A blueprint for creating objects. It defines attributes (data members) and methods (functions) that describe the object's state and behavior.
+
+-Object: An instance of a class. It represents a specific entity based on the class definition.
+
+-Encapsulation:Encapsulation refers to bundling data (attributes) and methods (functions) that operate on the data into a single unit (class). 
+It hides the internal state of objects and restricts direct access to them from outside the class.
+
+-Inheritance:Inheritance allows one class (subclass/derived class) to inherit attributes and methods from another class (superclass/base class). 
+It promotes code reuse and allows hierarchical classification of classes.
+
+-Polymorphism:Polymorphism allows objects of different classes to be treated as objects of a common superclass. 
+It enables methods to be overridden in subclasses to provide different implementations while maintaining a common interface.
+
+-Abstraction:Abstraction involves emphasizing essential characteristics while hiding irrelevant details. 
+It allows defining interfaces and abstract classes that provide a blueprint for subclasses to implement.
+
+- Java supports single inheritance, meaning a class can inherit from only one superclass. However, Java achieves similar functionality through interfaces, which can be implemented by classes. 
+This approach is known as interface inheritance or interface implementation.
+
+* How to Define a Class in Python? What Is Self? Give An Example Of A Python Class
+- In Python, a class is defined using the class keyword, followed by the class name and a colon :. 
+- Inside the class definition, you can define attributes (variables) and methods (functions) that describe the behavior and state of objects created from the class. 
+- self: Represents the instance itself. When methods are called, self allows access to the instance's attributes and methods.
+
+* What is Instantiation in terms of OOP terminology?
+-In object-oriented programming (OOP) terminology, instantiation refers to the process of creating an instance (or object) of a class. When you instantiate a class, you create a specific instance of that class, which inherits its attributes and methods.
+
+* What is used to check whether an object o is an instance of class A?  
+- isinstance() is the recommended and Pythonic way to check if an object belongs to a specific class or its subclasses, providing a straightforward and reliable method for type checking in Python programs.
+
+* What relationship is appropriate for Course and Faculty?  
+- The appropriate relationship between Course and Faculty depends on whether multiple instructors can teach a course, whether a course has a primary instructor, or if multiple courses can be taught by the same faculty member. 
+- Understanding these relationships helps in designing efficient and flexible educational systems or applications that accurately reflect the real-world interactions between courses and faculty members.
+
+* What relationship is appropriate for Student and Person?
+- The appropriate relationship between Student and Person depends on the specific requirements and design considerations of the application. 
+- Inheritance (Student is a Person) is typically used when there is a hierarchical relationship and shared attributes/methods, while composition (Student has a Person) is used when Person is a reusable component that encapsulates personal details within Student. 
+- Understanding these relationships helps in designing flexible and maintainable object-oriented systems that accurately model real-world entities.
+
+* Explain Inheritance in Python with an example? What is init? Or What Is A Constructor In Python?
+- Inheritance is a fundamental concept in object-oriented programming (OOP) where a new class (derived class or subclass) is created by inheriting attributes and methods from an existing class (base class or superclass). 
+- This allows the derived class to reuse code and extend the functionality of the base class.
+- The __init__ method in Python is a constructor used to initialize instance variables when an object is created.
+
+* Can one block of except statements handle multiple exception?
+- Yes, a single except block in Python can handle multiple exceptions. This capability allows you to manage different types of errors that might occur within a single try-except block, making your code more robust and easier to maintain.
+
+* When will the else part of try-except-else be executed?
+- In Python's try-except-else structure, the else block is executed if and only if no exceptions are raised in the try block.
+
+* Explain Exception handling? What is an Error in Python?
+- Exception handling is a mechanism in Python that allows you to deal with unexpected or exceptional situations in your code. These exceptional situations are often referred to as exceptions or errors.
+
+* What is File function in python? What is keywords to create and write file.
+- In Python, the term "File function" might refer to functions or methods related to file handling, particularly those used to interact with files on disk.
+- Common File Functions:
+open() Function:
+
+The open() function is used to open files in different modes ('r' for reading, 'w' for writing, 'a' for appending, 'b' for binary mode, etc.).
+Syntax: open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None)
+Example: file_object = open('filename.txt', 'r')
+read() Method:
+
+The read() method reads and returns the entire content of the file as a string.
+Example: content = file_object.read()
+write() Method:
+
+The write() method writes a string to the file. It does not automatically add a newline character ('\n').
+Example: file_object.write('Hello, World!')
+close() Method:
+
+The close() method closes the file object, releasing any system resources associated with it.
+Example: file_object.close()
