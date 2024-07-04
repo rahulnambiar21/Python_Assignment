@@ -139,3 +139,37 @@ close() Method:
 
 The close() method closes the file object, releasing any system resources associated with it.
 Example: file_object.close()
+
+* Why Django should be used for web-development? Explain how you can create a project in Django?
+- Django is a powerful web framework for building robust web applications quickly and efficiently. Here are some key reasons why Django is commonly chosen for web development:
+Batteries-included philosophy, Scalability and flexibility, Security, Community and ecosystem, Documentation and support.
+- To create a project in Django, you typically follow these steps:
+- First, make sure you have Django installed. You can install it using pip (Python's package installer):pip install django
+- Use the django-admin command-line utility to create a new Django project. Replace <project_name> with your desired project name: django-admin startproject <project_name>
+- Navigate into your project directory (where manage.py is located) and run the development server using the manage.py utility: python manage.py runserver
+
+* How to check installed version of django?
+- Using django-admin or django-admin.py:
+
+Open your terminal or command prompt and run either of the following commands:
+-django-admin --version
+-django-admin.py --version
+
+* Explain what does django-admin.py make messages command is used for?
+- The django-admin.py make messages command is used to extract translatable strings from Django templates, Python code, or other files in your project and generate or update language-specific message files (.po files). These .po files contain the translatable text strings along with their English (source) versions and placeholders.
+
+* What is Django URLs?make program to create django urls  
+- In Django, URLs (Uniform Resource Locators) are used to map specific URL patterns to views within your web application. URLs in Django are defined in a centralized manner using a URLconf (URL configuration), which is a set of patterns that Django uses to determine which view to serve for a particular URL.
+- Create a Django project (django-admin startproject project_name).
+Inside the project directory, create a new Django app (python manage.py startapp app_name).
+Navigate to the app directory (app_name), and create a urls.py file if it doesn't exist.
+
+* What is a QuerySet?
+- In Django, a QuerySet is a collection (list-like object) of database queries that can be used to retrieve and manipulate data from a database. 
+- It represents a query that hasn't yet been executed against the database. QuerySets allow you to filter, order, and slice data using various methods, and they can be easily converted to lists or iterated over to access individual objects.
+
+* Mention what command line can be used to load data into Django?
+- In Django, you can use the python manage.py loaddata command to load data from fixture files into your database. Fixture files in Django are JSON or XML files that contain serialized data for your models. This command is useful for populating initial data or importing data between environments.
+
+
+
